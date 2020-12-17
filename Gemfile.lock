@@ -61,11 +61,8 @@ GEM
     autoprefixer-rails (10.1.0.0)
       execjs
     bcrypt (3.1.16)
-    bcrypt (3.1.16-java)
     bindex (0.8.1)
     bootsnap (1.5.1)
-      msgpack (~> 1.0)
-    bootsnap (1.5.1-java)
       msgpack (~> 1.0)
     builder (3.2.4)
     byebug (11.1.3)
@@ -88,9 +85,6 @@ GEM
     erubi (1.10.0)
     execjs (2.7.0)
     ffi (1.13.1)
-    ffi (1.13.1-java)
-    ffi (1.13.1-x64-mingw32)
-    ffi (1.13.1-x86-mingw32)
     font-awesome-sass (5.15.1)
       sassc (>= 1.11)
     globalid (0.4.2)
@@ -115,28 +109,13 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.14.2)
     msgpack (1.3.3)
-    msgpack (1.3.3-java)
-    msgpack (1.3.3-x64-mingw32)
-    msgpack (1.3.3-x86-mingw32)
     nio4r (2.5.4)
-    nio4r (2.5.4-java)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
-    nokogiri (1.10.10-java)
-    nokogiri (1.10.10-x64-mingw32)
-      mini_portile2 (~> 2.4.0)
-    nokogiri (1.10.10-x86-mingw32)
-      mini_portile2 (~> 2.4.0)
     pg (1.2.3)
-    pg (1.2.3-x64-mingw32)
-    pg (1.2.3-x86-mingw32)
     pry (0.13.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    pry (0.13.1-java)
-      coderay (~> 1.1)
-      method_source (~> 1.0)
-      spoon (~> 0.0)
     pry-byebug (3.9.0)
       byebug (~> 11.0)
       pry (~> 0.13.0)
@@ -144,8 +123,6 @@ GEM
       pry (>= 0.10.4)
     public_suffix (4.0.6)
     puma (4.3.7)
-      nio4r (~> 2.0)
-    puma (4.3.7-java)
       nio4r (~> 2.0)
     rack (2.2.3)
     rack-cors (1.1.1)
@@ -191,8 +168,6 @@ GEM
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
       ffi (~> 1.9)
-    sassc (2.4.0-x64-mingw32)
-      ffi (~> 1.9)
     sassc-rails (2.1.2)
       railties (>= 4.0.0)
       sassc (>= 2.0)
@@ -205,8 +180,6 @@ GEM
     simple_form (5.0.3)
       actionpack (>= 5.0)
       activemodel (>= 5.0)
-    spoon (0.0.6)
-      ffi
     spring (2.1.1)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -220,15 +193,12 @@ GEM
       sprockets (>= 3.0.0)
     thor (1.0.1)
     thread_safe (0.3.6)
-    thread_safe (0.3.6-java)
     tilt (2.0.10)
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2020.4)
-      tzinfo (>= 1.0.0)
     web-console (4.1.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -244,19 +214,13 @@ GEM
       railties (>= 4.2)
     websocket-driver (0.7.3)
       websocket-extensions (>= 0.1.0)
-    websocket-driver (0.7.3-java)
-      websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
     zeitwerk (2.4.2)
 
 PLATFORMS
-  java
-  x64-mingw32
-  x86-mingw32
-  x86-mswin32
-  x86_64-darwin-19
+  ruby
 
 DEPENDENCIES
   autoprefixer-rails
@@ -290,4 +254,4 @@ RUBY VERSION
    ruby 2.6.5p114
 
 BUNDLED WITH
-   2.2.2
+   1.17.2
